@@ -682,6 +682,7 @@ Header
 	#mainnav {
 		display: block;
 		float: right;
+        line-height: 46px;
 		-webkit-transition: all 0.3s linear;
 		   -moz-transition: all 0.3s linear;
 		    -ms-transition: all 0.3s linear;
@@ -708,9 +709,11 @@ Header
 		font-weight: 500;
 		text-decoration: none;
 		outline: none;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 	}
 	#mainnav ul li a:hover {
 		color: #d65050;
+        text-shadow: none;
 	}
 	#mainnav ul ul a {
 		width: 180px;
