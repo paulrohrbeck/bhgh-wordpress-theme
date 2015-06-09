@@ -1174,7 +1174,11 @@ Blog
 	}
 	.content-area .entry-thumb {
 		text-align: center;
-		margin-bottom: 30px;
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin: 0 20px 30px 0;
+        overflow: hidden;
 	}
 	.hentry .title-post {
 		font-size: 20px;
