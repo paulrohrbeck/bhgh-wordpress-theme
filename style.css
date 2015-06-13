@@ -663,7 +663,7 @@ Header
 	}
 
 	.site-header.float-header {
-		background-color: rgba(0,0,0,0.9);
+		background-color: rgba(0,0,0,0.8);
 		padding: 5px;
 	}
 	.site-header.float-header #mainnav {
@@ -1107,7 +1107,6 @@ Page title
 --------------------------------------------------------------*/
 	.page-title {
 		color: #ccc;
-		padding-top: 100px;
 	}
 	.page-title .col-md-6 {
 		float: none;
@@ -1548,7 +1547,7 @@ Footer
 	}
 	.footer-widgets .widget-title {
 		text-transform: uppercase;
-		color: #c5c5c5;
+		color: #4e5e6e;
 		line-height: normal;
 		margin: 5px 0 0;
 	}
@@ -1603,6 +1602,23 @@ Footer
 		width: 205px;
 		margin-bottom: 10px;
 	}
+
+    #copyright-notice {
+        float: left;
+        margin: 0;
+    }
+    .menu-footer-container {
+        float: right;
+    }
+    ul#menu-footer {
+        list-style: none;
+        margin: 0;
+    }
+    #menu-footer li {
+        float: left;
+        margin: 0 20px 0 0;
+    }
+
 /*--------------------------------------------------------------
 Bottom
 --------------------------------------------------------------*/
@@ -2868,7 +2884,7 @@ li#menu-item-451 {
     transition: all 0.3s;
     background-color: #e77b3b;
     margin: 4px;
-    border: 1px solid #d65050;
+    border: 1px solid #e77b3b;
 }
 
 li#menu-item-451:hover {

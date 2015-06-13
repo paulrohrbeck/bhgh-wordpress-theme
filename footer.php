@@ -19,7 +19,8 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<p>&copy; Boys Hope Girls Hope San Francisco</p>
+			<p id="copyright-notice">&copy; Boys Hope Girls Hope San Francisco</p>
+            <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
