@@ -242,8 +242,8 @@ Content
 	padding: 30px;
 }
 .page-template-page_front-page .page-wrap .content-wrapper {
-	padding-top: 0;
-	padding-bottom: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background-color: transparent;
 }
 /*--------------------------------------------------------------
