@@ -8,7 +8,7 @@
 
 	<?php if ( has_post_thumbnail() && ( get_theme_mod( 'post_feat_image' ) != 1 ) ) : ?>
 		<div class="entry-thumb">
-			<?php the_post_thumbnail('sydney-large-thumb'); ?>
+			<?php the_post_thumbnail('sydney-small-thumb'); ?>
 		</div>
 	<?php endif; ?>
 
