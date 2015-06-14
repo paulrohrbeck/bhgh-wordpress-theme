@@ -2887,6 +2887,10 @@ li#menu-item-451 {
     border: 1px solid #e77b3b;
 }
 
+#mainnav ul li#menu-item-451 a {
+    text-shadow: none;
+}
+
 li#menu-item-451:hover {
     background-color: transparent;
 }
@@ -2895,6 +2899,15 @@ li#menu-item-451:hover {
     border-left: 1px solid rgb(238, 238, 238);
     padding: 0 0 0 30px;
 }
+
+#primary ul {
+    margin-left: 20px;
+}
+
+#disqus_thread {
+    margin-top: 50px;
+}
+
 /* Media Queries
 -------------------------------------------------------------- */
 	@media only screen and (min-width: 1930px) {
