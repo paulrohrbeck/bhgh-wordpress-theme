@@ -2891,6 +2891,10 @@ li#menu-item-451:hover {
     background-color: transparent;
 }
 
+#secondary {
+    border-left: 1px solid rgb(238, 238, 238);
+    padding: 0 0 0 30px;
+}
 /* Media Queries
 -------------------------------------------------------------- */
 	@media only screen and (min-width: 1930px) {
