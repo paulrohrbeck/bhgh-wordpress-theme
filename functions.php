@@ -51,7 +51,7 @@ function sydney_setup() {
 	add_image_size('sydney-medium-thumb', 550);
 	add_image_size('sydney-small-thumb', 230);
 
-	// This theme uses wp_nav_menu() in one location.
+	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'sydney' ),
 		'footer' => __( 'Footer Menu', 'sydney' ),
@@ -272,23 +272,3 @@ require get_template_directory() . '/inc/styles.php';
  *TGM Plugin activation.
  */
 require_once dirname( __FILE__ ) . '/plugins/class-tgm-plugin-activation.php';
- 
-add_action( 'tgmpa_register', 'sydney_recommend_plugin' );
-function sydney_recommend_plugin() {
- 
-    $plugins = array(
-        array(
-            'name'               => 'Page Builder by SiteOrigin',
-            'slug'               => 'siteorigin-panels',
-            'required'           => false,
-        ),
-        array(
-            'name'               => 'Types - Custom Fields and Custom Post Types Management',
-            'slug'               => 'types',
-            'required'           => false,
-        ),          
-    );
- 
-    tgmpa( $plugins);
- 
-}
